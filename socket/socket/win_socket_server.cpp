@@ -16,8 +16,8 @@ void DoItServer(char* argv[])
 	SOCKADDR_IN serAddr, clientAddr;
 
 	int szClientAddr = sizeof(clientAddr);
-	char message[] = "Hello World!\n";
-
+	char message[] = "Hello World!";
+	printf("size:%d\n", sizeof(message));
 
 	//³õÊ¼»¯Ì×½Ó×Ö¿â
 	if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
@@ -54,4 +54,4 @@ void DoItServer(char* argv[])
 	WSACleanup();
 }
 
-//int main(int argc, char* argv[]){if (argc != 2) {exit(1);}DoItServer(argv);return 0;}
+int main(int argc, char* argv[]){if (argc != 2) {exit(1);}DoItServer(argv);return 0;}

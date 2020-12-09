@@ -49,4 +49,4 @@ void DoItClient(char* argv[])
 	WSACleanup();
 }
 
-int main(int argc, char* argv[]){if (argc != 3) {exit(1);}DoItClient(argv);return 0;}
+//int main(int argc, char* argv[]){if (argc != 3) {exit(1);}DoItClient(argv);return 0;}
