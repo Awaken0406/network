@@ -31,7 +31,7 @@ void DoItClient(char* argv[])
 	//#设置要连接的服务器IP和端口
 	memset(&serAddr, 0, sizeof(serAddr));
 	serAddr.sin_family = AF_INET;
-	serAddr.sin_addr.s_addr = inet_addr(argv[1]);
+	serAddr.sin_addr.s_addr = inet_addr(argv[1]);//inet_addr将字符串地址转换成unsigned int类型 与inet_aton(char* ip,struct in_addr * addr);作用相同
 	serAddr.sin_port = htons(atoi(argv[2]));
 
 	//#链接

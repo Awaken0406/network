@@ -127,6 +127,7 @@
   <ItemGroup>
     <ClCompile Include="linux_socket_client.cpp" />
     <ClCompile Include="linux_socket_server.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="win_socket_client.cpp" />
     <ClCompile Include="win_socket_server.cpp" />
   </ItemGroup>
