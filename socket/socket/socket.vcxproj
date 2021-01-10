@@ -125,10 +125,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="linux_socket_client.cpp" />
+    <ClCompile Include="KiiZombie.cpp" />
     <ClCompile Include="linux_socket_server.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="win_socket_client.cpp" />
+    <ClCompile Include="Select.cpp" />
+    <ClCompile Include="select_server.cpp" />
+    <ClCompile Include="Signal.cpp" />
+    <ClCompile Include="udp_client.cpp" />
+    <ClCompile Include="udp_server.cpp" />
+    <ClCompile Include="win_domain.cpp" />
     <ClCompile Include="win_socket_server.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

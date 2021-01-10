@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\linux">
+      <UniqueIdentifier>{fe1aa511-f22d-4279-81ef-3ce9e5fe660a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="win_socket_server.cpp">
@@ -21,14 +24,26 @@
     <ClCompile Include="linux_socket_server.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="linux_socket_client.cpp">
+    <ClCompile Include="win_domain.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="win_socket_client.cpp">
+    <ClCompile Include="Signal.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="KiiZombie.cpp">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="select_server.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_server.cpp">
+      <Filter>源文件\linux</Filter>
+    </ClCompile>
+    <ClCompile Include="udp_client.cpp">
+      <Filter>源文件\linux</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
